@@ -1,6 +1,6 @@
 /*
- * slush-slush-express-api
- * https://github.com/iansinnott/slush-slush-express-api
+ * slush-express-api
+ * https://github.com/iansinnott/slush-express-api
  *
  * Copyright (c) 2015, Ian Sinnott
  * Licensed under the MIT license.

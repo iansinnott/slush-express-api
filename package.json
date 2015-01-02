@@ -1,22 +1,22 @@
 {
-    "name": "slush-slush-express-api",
+    "name": "slush-express-api",
     "description": "Build Express-based REST APIs.",
     "version": "0.1.0",
-    "homepage": "https://github.com/iansinnott/slush-slush-express-api",
+    "homepage": "https://github.com/iansinnott/slush-express-api",
     "author": {
         "name": "Ian Sinnott",
         "email": "ian@iansinnott.com"
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/iansinnott/slush-slush-express-api.git"
+        "url": "git://github.com/iansinnott/slush-express-api.git"
     },
     "bugs": {
-        "url": "https://github.com/iansinnott/slush-slush-express-api/issues"
+        "url": "https://github.com/iansinnott/slush-express-api/issues"
     },
     "licenses": [{
         "type": "MIT",
-        "url": "https://github.com/iansinnott/slush-slush-express-api/blob/master/LICENSE"
+        "url": "https://github.com/iansinnott/slush-express-api/blob/master/LICENSE"
     }],
     "main": "slushfile.js",
     "engines": {
@@ -38,6 +38,8 @@
         "iniparser": "^1.0.5"
     },
     "keywords": [
-        "slushgenerator"
+        "slushgenerator",
+        "rest",
+        "api"
     ]
 }
