@@ -71,7 +71,7 @@ gulp.task('default', function (done) {
         name: 'appDescription',
         message: 'What is the description?'
     }, {
-        name: 'appVersion',
+        name: 'version',
         message: 'What is the version of your project?',
         default: '0.1.0'
     }, {
