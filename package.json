@@ -1,7 +1,7 @@
 {
   "name": "slush-express-api",
   "description": "Build Express-based REST APIs.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/iansinnott/slush-express-api",
   "author": {
     "name": "Ian Sinnott",
