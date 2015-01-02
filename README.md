@@ -1,14 +1,13 @@
-# slush-express-api [![Build Status](https://secure.travis-ci.org/iansinnott/slush-slush-express-api.png?branch=master)](https://travis-ci.org/iansinnott/slush-slush-express-api) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-slush-express-api.png)](http://badges.enytc.com/for/npm/slush-slush-express-api)
+# Slush Express API Generator
 
-> Build Express-based REST APIs.
-
+Build Express-based REST APIs.
 
 ## Getting Started
 
-Install `slush-slush-express-api` globally:
+Install `slush-express-api` globally:
 
 ```bash
-$ npm install -g slush-slush-express-api
+$ npm install -g slush-express-api
 ```
 
 ### Usage
@@ -16,13 +15,26 @@ $ npm install -g slush-slush-express-api
 Create a new folder for your project:
 
 ```bash
-$ mkdir my-slush-slush-express-api
+$ mkdir my-express-api
 ```
 
 Run the generator from within the new folder:
 
 ```bash
-$ cd my-slush-slush-express-api && slush slush-express-api
+$ cd my-express-api && slush express-api
+```
+
+To start developing run:
+
+```
+$ gulp
+```
+
+Your app will now be live on `localhost:8888`. You can verify this by using `curl` from the command line:
+
+```
+$ curl :8888
+{"message":"Oh hai"}
 ```
 
 ## Getting To Know Slush
@@ -39,6 +51,10 @@ See the [CONTRIBUTING Guidelines](https://github.com/iansinnott/slush-slush-expr
 
 ## Support
 If you have any problem or suggestion please open an issue [here](https://github.com/iansinnott/slush-slush-express-api/issues).
+
+## Other
+
+Although this generator has changed significantly, it was initially based on the [slush-generator](https://www.npmjs.com/package/slush-generator).
 
 ## License 
 
